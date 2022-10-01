@@ -5,16 +5,16 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Akko-Ism",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://discord.com/oauth2/authorize?client_id=1025195160168054846&scope=applications.commands%20bot&permissions=8",
   //BotInvite Link
   Features: [
     {
-      name: "Moderation",
+      name: "Moderation/AutoModeration",
       description:
-        "Moderation is the process of eliminating or lessening extremes.",
+        "Moderation/Automateration is the process of eliminating or lessening extremes, Bot done or moderator done.",
       logo: <MdAddModerator className="h-10 w-10" />,
     },
     {
@@ -32,8 +32,20 @@ const config = {
     {
       name: "Welcomer",
       description:
-        "Welcomer is the person who greet the new person in an unique and great way",
+        "Welcomer is the person who greets the new person in an unique and great way",
       logo: <CgCrown className="h-10 w-10" />,
+    },
+    {
+      name: "Tickets",
+      description:
+        "Tickets are the system we need! Giving non-moderating players a chance to report a corrupt moderator/member.",
+      logo: <TbMessage2Code className="h-10 w-10" />,
+    },
+    {
+      name: "Logging",
+      description:
+        "Logging is a actions where when the bot uses commands it enters what they did inside a bot-made channel.",
+      logo: <TbMessage2Code className="h-10 w-10" />,
     },
     // You can added more features if need add
   ],
@@ -43,8 +55,6 @@ const config = {
   executedCommand: 27000, //--  - Stats
   availableCommand: 400, //---   - Here
   //Do not change if you don't know about them
-  faceBookLogo: (
-    <BsFacebook className="h-10 w-10 text-[#4267B2] hover:scale-125 easeIn cursor-pointer" />
   ),
   discordLogo: (
     <FaDiscord className="h-10 w-10 text-[#738adb] hover:scale-125 easeIn cursor-pointer" />
@@ -54,12 +64,9 @@ const config = {
   ),
   //----------------------------------------------------------------
   // Your social handle links
-  githubLink: "https://github.com/mohitmimani",
-  twitterLink: "https://twitter.com",
-  mediumLink: "https://medium.com/",
-  facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
-  youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
+  twitterLink: "https://twitter.com/JameUwUMan",
+  discordLink: "https://discord.com/channels/1023635862505930873/1023635862979883060",
+  youtubeLink: "https://www.youtube.com/channel/UCY2rQKJpC-prBdTrq-v8xkg",
 };
 
 export default config;
