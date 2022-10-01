@@ -5,10 +5,10 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Akko-Ism",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://discord.com/oauth2/authorize?client_id=1025195160168054846&scope=applications.commands%20bot&permissions=8",
   //BotInvite Link
   Features: [
     {
@@ -54,12 +54,12 @@ const config = {
   ),
   //----------------------------------------------------------------
   // Your social handle links
-  githubLink: "https://github.com/mohitmimani",
-  twitterLink: "https://twitter.com",
-  mediumLink: "https://medium.com/",
-  facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
-  youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
+  githubLink: "",
+  twitterLink: "https://twitter.com/JameUwUMan",
+  mediumLink: "",
+  facebookLink: "",
+  discordLink: "https://discord.com/channels/1023635862505930873/1023635862979883060",
+  youtubeLink: "https://www.youtube.com/channel/UCY2rQKJpC-prBdTrq-v8xkg",
 };
 
 export default config;
